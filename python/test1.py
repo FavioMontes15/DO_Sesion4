@@ -1,6 +1,6 @@
 import unittest
 import os
-from script import download_data
+from script_python import download_data
 
 class TestDownloadData(unittest.TestCase):
 
