@@ -3,7 +3,6 @@ import os ##sistema operativo
 location = "C:/Users/FAVIO/Desktop/proyecto_parcial/python/dataset"
 
 ###Validar que la carpeta exista###
-
 if not os.path.exists(location):
     ##En caso mi carpeta no exista, voy a crear una nueva##
     os.mkdir(location) ##mkdir -> make directory
