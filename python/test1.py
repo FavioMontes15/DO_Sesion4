@@ -6,7 +6,7 @@ class TestDownloadData(unittest.TestCase):
 
     def test_download_data(self):
         # Ejecutar el script
-        download_data()
+        download_data(location)
 
         # Verificar que la carpeta dataset se ha creado
         self.assertTrue(os.path.exists("C:/Users/FAVIO/Desktop/proyecto_parcial/python/dataset"))
